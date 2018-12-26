@@ -1,0 +1,12 @@
+
+If we didn't pass any props or passed diff type of props, no error occurs
+Instead we can pass default props
+App.defaultProps={
+  trainer: 'Anonymous'
+}
+To make a prop required,
+  title : PropTypes.string.isRequired()
+
+  
+  
+  
