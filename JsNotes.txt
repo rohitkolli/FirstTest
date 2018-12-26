@@ -1,0 +1,25 @@
+latentflip.com/loupe
+----------------------------------------------------
+
+js has only single stack.
+Each browser has one API, using this browser shows the page. Eg: DOM, XHR (In RN we use mobile APIs, no browser APIs)
+Event Queue executed by Event Loop.
+js runtime has 2 parts: stack, heap memories..
+when js encounters an exception it stops/crashes there.
+We can't suspend a func at middle and execute another func bcas js is single threaded.
+When an Event happens the 'Web APIs' pushes that event into 'QUEUE' and 'Event Loop' handles that event from 'QUEUE'.
+js runs the funcs Asynchronously.
+
+IO in js:
+-----------------------------------------------------
+
+Egs of IO: http req, R/W local storage..
+when there is a timer func, the web api counts the secs while the js executes other code.
+
+Dependency & Dependent Modules
+-----------------------------------------------------
+
+
+
+
+
