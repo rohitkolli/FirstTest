@@ -20,6 +20,12 @@ Dependency & Dependent Modules
 -----------------------------------------------------
 
 
+a. promise
+b. reactive programming API (if u hv to return multiple items asyncly)
+
+-------------------------------------JSTools--------------------------------------------------
+
+
 
 
 
