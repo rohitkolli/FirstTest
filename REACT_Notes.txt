@@ -7,6 +7,22 @@ App.defaultProps={
 To make a prop required,
   title : PropTypes.string.isRequired()
 
+LifeCycle:
+----------
+  Phases
+----------
+
+1. init/mounting
+  -> constructor  - to initialize Default state
+  -> render
+  -> componentDidMount()
+2. re-render/updating
+  -> shouldComponentUpdate(nextProps, nextState) //default return value is 'true'
+  -> render
+  -> componentDidUpdated()
+3. unmounting/destroy
+  -> componentWillUnmount()
+  -> {message? <Greeting /> : null} // removes component from DOM
   
-  
-  
+ We an force our component to update/re-render
+  forceUpdate()
